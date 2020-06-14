@@ -1,0 +1,167 @@
+body{
+	width: 1200px;
+	height: 2466px;
+	margin: 0 auto;
+	/* border: yellow solid 2px; */
+}
+div.header{
+	height: 160px;
+	/* border: blue solid 2px; */
+}
+.header img{
+	width: 180px;
+    height: 160px;	
+    float: left;
+}
+.header form{
+	float: left;
+	margin-left: 150px;
+	margin-top: 45px;
+}
+.header input{
+	height: 50px;
+	width: 500px;
+	float: left;
+}
+input.search{
+	background: red url("../images/search.png") no-repeat center center;
+	width: 52px;
+	height: 54px;
+	text-align: center;
+	border: none;
+}
+div.right{
+	float: right;
+	margin-top: 60px;
+	margin-right: 50px;
+}
+.right a{
+	font-size: larger;
+}
+.right a:hover{
+	color: red;
+}
+/* 超链接悬浮颜色 */
+.banner img{
+	width: 1200px;
+}
+p.sub-title{
+	float: left;
+	display: inline-block;
+	color: blue;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 楷体;
+    font-style: italic;
+}
+.banner a{
+	font-size: 20px;
+	margin-left: 60px;
+}
+div.banner-nav{
+	float: left;
+	margin-top: 10px;
+}
+.banner-nav a:hover{
+	font-weight: bold;
+	/* font-size: 30px; */
+}
+/* content */
+div.content>div{
+	width: 580px;
+	height: 580px;
+	/* border: purple  solid 1px; */
+	float: left;
+}
+div.e-book{
+	float: none;
+}
+p.sub-title{
+	float: none;
+}
+p.new{
+	float: left;
+}
+.e-book div{
+	float: left;
+}
+.e-book p{
+	float: none;
+}
+.e-book img{
+	width: 170px;
+    height: 230px;
+}
+.e-book a{
+	color: yellow;
+	background-color: gray;
+	position: relative;
+    right: 160px;
+    top: -5px;
+    width:170px;
+    padding: 0 40px;
+}
+.web p{
+	display: inline-block;
+}
+.web a{
+	margin-left: 50px;
+    font-size: 20px;
+}
+p.sub-sub-title{
+	font-size: 25px;
+	color: black;	
+	text-decoration: underline;
+	float: none;
+	font-weight: bold;
+}
+
+
+.people p{
+	float: none;
+}
+.people a{
+	font-size: 28px;
+    color: black;
+}
+.people a:hover{
+	color: pink;
+}
+.people li{
+	list-style-type: disc;
+	margin-left: 50px;
+}
+.test-nav a{
+	color: red;
+	font-weight: bold;
+	font-size: 23px;
+	margin-left: 100px;
+	float: left;
+	margin-top: 7px;
+} 
+.test p{
+	float: left;
+}
+.competition p{
+	float: left;
+}
+.competition a{
+	color: red;
+	font-weight: bold;
+	font-size: 23px;
+	margin-left: 100px;
+	float: left;
+	margin-top: 7px;
+}
+#small{
+	height: 50px;
+}
+div.bottom{
+	background-color: black;
+	height: 300px;
+}
+.bottom p{
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+}
